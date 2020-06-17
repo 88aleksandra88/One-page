@@ -1,0 +1,100 @@
+.navbar-brandt img{
+    max-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    background-attachment: fixed;
+
+}
+
+
+header{
+    background-image: url(images/header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-height: 70vh;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 84%);
+}
+header .row{
+    min-height: 70vh;
+    align-items: center;
+}
+.TextHaut{
+    background-color: rgba(0,0,0,0.5);
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+.Quote{
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    color:black;
+    justify-content: center;
+    
+}
+
+
+
+.containerPresentation{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.4);
+    clip-path: polygon(0 0, 100% 12%, 100% 100%, 0% 100%)
+
+
+}
+
+.TextPresentation{
+    color: white;
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+
+.containerVideo{
+    display:flex;
+    justify-content: space-around;
+    font-family: 'Dancing Script', cursive;
+    min-height: 30vh;
+    width: fit-content;
+    color:#555;
+    font-size: 15vh;
+
+    
+    
+
+
+}
+.boutton{
+	border:none;
+	padding:6px 0 6px 0;
+	border-radius:2px;
+	box-shadow:3px 3px 12px #999;
+	background:#fff;
+	font:13px Arial;
+    color:#555;
+    background-color: rgba(0,0,0,0.5);
+
+    
+}
+
+
+
+ .mb-4{
+
+    display:flex;
+    justify-content: space-around;
+ }
+
+ footer{
+
+    max-height: 40vh;
+ }
